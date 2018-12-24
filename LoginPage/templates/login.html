@@ -1,0 +1,47 @@
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
+       	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <title>Tesla-Login</title>
+    </head>
+    <body>
+    	<div class="container">
+    		<div class="model-pop-up">
+    			<div>
+    				<p class="model-text-about">About</p>
+    				<p class="model-text-about-text">The TESLA Web data connector connects to your Tesla account to create a data extract or your visualizations. Created by Sandeep</p>
+    			</div>
+    			<div>
+    				<p class="model-text-contact">Contact</p>
+    				<div class="text-contained">
+    					<a href="mailto:you@youremail.com" target="_blank" class="model-text-contact-text">Email</a>
+    					<a href="http://twitter.com/youraccount" target="_blank" class="model-text-contact-text">Follow on Twitter</a>
+    					<a href="http://www.linkedin.com/youraccount" target="_blank" class="model-text-contact-text">Connect on LinkedIn</a>
+    				</div>
+    			</div>
+    		</div>
+    		<hr>
+    		<div class="division-1">
+    			<button class="hamburger-button">
+    				<div class="hamburger"></div>
+					<div class="hamburger"></div>
+					<div class="hamburger"></div>
+    			</button>
+	        	<p class="tesla-text1">TESLA web data connector</p>
+	        </div>
+	        <div class="division-2">
+		        <h1 class="text-2">Connect to</h1><img class="tesla-image" src="../static/images/tesla.png">
+		        <form method="post">
+		        	{% csrf_token %}
+		        	{{ loginPage }}
+		        	<button type="submit" class="submit">Connect</form>
+		        </form>
+		    </div>
+	    </div>
+    </body>
+    
+	
+    <script type="text/javascript" src="{{ STATIC_URL }} /static/js/login.js"></script>
+</html>

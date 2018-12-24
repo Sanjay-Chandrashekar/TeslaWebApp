@@ -1,0 +1,122 @@
+hr{
+	width: 575px;
+	margin-top: 0px;
+}
+
+.hamburger-button{
+	margin-right: 20px;
+	height: 34px;
+	margin-top: 10px;
+}
+
+.tesla-text1{
+	font-size: 17px;
+	letter-spacing: 0.5px;
+	color: #696969;
+}
+
+
+.division-1{
+	margin: auto;
+    width: 16%;
+    display: flex;
+}
+
+.division-2{
+	width: 29%;
+    margin: auto;
+}
+    
+
+.hamburger{
+	width: 21px;
+    height: 2px;
+	background-color: black;
+	margin: 6px 0;
+}
+
+.text-field{
+	display: block;
+	width: 500px;
+	height: 41px;
+	margin-bottom: 14px;
+}
+
+.text-2{
+	color: #707070;
+	display: inline-flex;
+}
+
+#id_vehivles{
+	display: block;
+	width: 500px;
+	height: 41px;
+	margin-bottom: 14px;
+}
+
+.submit{
+	width: 317px;
+    height: 38px;
+    font-size: 20px;
+    color: white;
+    background: #ff8205;
+    margin-left: 93px;
+    border-radius: 3px;
+}
+
+.tesla-image{
+	position: relative;
+    top: 9px;
+}
+
+.model-pop-up{
+    height: 170px;
+    margin: auto;
+    width: 575px;
+    background-color: #262626;
+    margin-top: 30px;
+    border-radius: 3px;
+    visibility: hidden;
+}
+
+.model-text-about{
+	color: #ff8205;
+	font-size: 25px;
+	position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.model-text-contact{
+	color: #ff8205;
+    font-size: 25px;
+    position: relative;
+    top: -113px;
+    left: 420px;
+}
+
+.model-text-about-text{
+	color: #b3b3b3;
+	position: relative;
+    left: 20px;
+    width: 394px;
+}
+
+.model-text-contact-text{
+	color: #b3b3b3;
+	margin: 0px;
+	margin-bottom: 1.5px;
+	display: block;
+    text-decoration: none;
+}
+
+.text-contained{
+	position: relative;
+    top: -135px;
+    left: 420px;
+ }
+
+::-webkit-input-placeholder {
+    font-size: 15px;
+    font-style: italic;
+}
